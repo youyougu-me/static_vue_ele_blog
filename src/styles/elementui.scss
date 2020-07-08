@@ -1,0 +1,38 @@
+//一一一侧边栏样式重置
+
+//展开状态下鼠标滑向(hover)一级菜单的颜色
+.el-menu-item:hover {
+  background-color: #fff !important;
+  color: $mainColor !important;
+  a {
+    color: $mainColor !important;
+  }
+  .svg-icon {
+    color: $mainColor !important;
+  }
+}
+//标签
+.el-tag {
+  display: inline-block;
+  height: 32px;
+  padding: 0 10px;
+  line-height: 30px;
+  font-size: 12px;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 4px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  white-space: nowrap;
+  margin: 3px 5px;
+}
+
+//媒体查询
+@media screen and (max-width: $--screen-sm-min) {
+  //小屏幕
+  .el-row,
+  .el-col {
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+}

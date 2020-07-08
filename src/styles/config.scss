@@ -1,0 +1,16 @@
+//配置主色调
+$mainColor: #f17c67;
+$textColor: #2d2d2d;
+//动画函数
+@mixin webkit($type, $value) {
+  -webkit-#{$type}: $value;
+  -moz-#{$type}: $value;
+  -o-#{$type}: $value;
+  -ms-#{$type}: $value;
+  #{$type}: $value;
+}
+
+//媒体查询尺寸配置
+$--screen-sm-min: 768px;
+$--screen-md-min: 992px;
+$--screen-lg-min: 1200px;
